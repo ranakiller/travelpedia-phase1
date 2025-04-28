@@ -1,0 +1,70 @@
+/* Reset some basic elements */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    background: #005f73;
+    padding: 10px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ff9900;
+}
+
+.hero {
+    background: url('../images/travel2.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.services {
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+.service-cards {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    flex: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about, .contact {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #005f73;
+    color: white;
+}
